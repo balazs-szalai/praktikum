@@ -11,7 +11,7 @@ It might have problems and it might not be perfect, but it gets the job done mos
 
 ## Notes about the structure
 It has 2 folders due to some of the functions using multiprocessing, which is would require to import the whole package for each process, this is however very slow due to Sympy having a lot of initializations. This was solved by adding the multiprocessing parts to a separate folder which can be imported separately, therefore lowering the overhead from the multiprocessing.
-All this means is that it is necessary to handle it as 2 modules. 
+All this means is that it is necessary to handle it as 2 modules: praktikum and praktikum_partial_imports. 
 
 ## Examples
 Examples are provided in the $examples$ folder. They are not meant to be understood as the actual measurements they were, they are only there to showcase the usage on some data.
