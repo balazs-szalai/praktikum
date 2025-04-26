@@ -17,4 +17,4 @@ All this means is that it is necessary to handle it as 2 modules: praktikum and 
 Examples are provided in the $examples$ folder. They are not meant to be understood as the actual measurements they were, they are only there to showcase the usage on some data.
 
 ## Dependencies
-This package only uses very common Python libraries: Numpy, Scipy, Sympy and Matplotlib.
+This package only uses very common Python libraries: Numpy, Scipy, Sympy, Matplotlib and Pandas.
